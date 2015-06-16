@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2174b8</color>
+    <color name="blue_hover">#802174b8</color>
+    <color name="blue_text">#0969b8</color>
+
+</resources>

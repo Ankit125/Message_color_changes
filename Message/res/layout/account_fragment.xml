@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="First Name"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Last Name"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Real Name"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_rname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Masked Email"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_memail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Real Phone"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_rphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Masked phone"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_mphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Account Type"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_accounttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Account Status"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_accountstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="Expiration Date"
+                    android:textColor="@color/blue" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/edt_expirationdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/myaccount_rounded_textbox"
+                    android:ems="10"
+                    android:padding="@dimen/accout_text_padding"
+                    android:singleLine="true"
+                    android:textColor="@color/blue" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
